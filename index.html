@@ -8,7 +8,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <video src="video1.mp4" id="myvideo" controls></video>
 
+    
+    <button onclick="playvid()" onmouseleave="pausevid()" class="p1">play/pause</button>
+    <video src="video1.mp4" id="myvideo" height="400" width="450" controls></video>
+
+    <script>
+
+        let x = document.getElementById("myvideo");
+        
+        function playvid(){
+            
+            x.play();
+            x.addEventListener("onmouseenter",x.play());
+        }
+        
+        function pausevid(){
+            
+            x.pause();
+            x.addEventListener("onmouseleave",x.pause());
+        }
+
+    </script>
 </body>
 </html>

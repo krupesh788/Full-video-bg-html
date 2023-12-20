@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 #myvideo{
 
     position: fixed;
@@ -12,4 +13,20 @@
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
+}
+button{
+
+    position: fixed;
+    margin: 260px 603px;
+    z-index: 2;
+    
+
+}
+p1{
+
+
+    position: fixed;
+    margin: 260px 603px;
+    z-index: 2;
+
 }
